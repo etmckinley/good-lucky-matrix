@@ -82,7 +82,7 @@ also specifying the stages of the season I want to get, in this case I
 don’t want data from the playoffs.
 
 ``` r
-team_data = asa <- asa_client$get_team_xgoals(
+team_data = asa_client$get_team_xgoals(
   leagues = league_select,
   split_by_seasons = TRUE,
   stage_name = c("Regular Season", 'MLS is Back Group Stage')
