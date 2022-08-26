@@ -113,7 +113,8 @@ team_data = team_data %>%
     Pts = points / count_games,
     Pts_xPts = Pts - xPts,
     logo = paste0(
-      "https://app.americansocceranalysis.com/club_logos/",
+      #"https://app.americansocceranalysis.com/club_logos/",
+      "https://american-soccer-analysis-headshots.s3.amazonaws.com/club_logos/",
       team_id,
       ".png"
     ),
